@@ -3,7 +3,8 @@ body{
     padding: 0;
 }
 header{
-    background-color: blue;
+    background-color: #053C6F;
+    color: white;
 }
 .container-header{
     display: flex;
@@ -19,4 +20,28 @@ img{
     width: 70px;
     height: 70px;
     margin: 5px 10px;
+}
+/* main*/
+
+.container-main{
+    background-color: #ABB2B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.horizontal-blocks{
+    width: 500px;
+}
+.horizontal-block-1{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+.input-border-h3{
+    width: 90px;
+}
+.button-block{
+    text-align: center;
 }
